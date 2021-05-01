@@ -1,0 +1,47 @@
+@media (min-width: 360px){
+    .full-width {
+        width: 100% !important;
+    }
+    .App .main-content {
+        margin-left: 0;
+        right: 0;
+        position: absolute;
+        top: 0;
+    }
+    .App .main-content .full-width .content {
+        margin: 2rem 5rem;
+    }
+    .Title {
+        font-size: .9rem;
+    }
+    .services-container {
+        flex-direction: column;
+    }
+    .ServiceSection:not(:last-child) {
+        margin-bottom: 1rem;
+    }
+}
+@media (min-width: 640px){
+    .full-width {
+        width: 100% !important;
+    }
+}
+     
+@media (min-width: 768px){
+    
+    .full-width {
+        width: 100% !important;
+    }
+    .services-container  {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 2rem;
+    }
+}
+    
+@media (min-width: 1024px){
+}
+    
+@media (min-width: 1200px){
+    
+}
